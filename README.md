@@ -1,10 +1,10 @@
-# 🏢 Sistema de Gestión de Inventario - ATARAXIA S.A.C.
+# Sistema de Gestión de Inventario - ATARAXIA S.A.C.
 
 Este es el sistema web completo y funcional para la gestión y trazabilidad de materiales, herramientas y equipos de **ATARAXIA CONSTRUCTORA S.A.C.**, diseñado con una arquitectura robusta de N-Capas, soporte para operación en modo desconectado (PWA offline sync) y auditoría automatizada.
 
 ---
 
-## 🎨 Características del Sistema (Historias de Usuario)
+## Características del Sistema (Historias de Usuario)
 
 El sistema implementa de forma íntegra las interfaces y requisitos técnicos descritos:
 1. **HU-008: Autenticación Segura (Interfaz 1):** Login corporativo con visor de contraseña, registro automático de sesión (IP y hora), control de inactividad (auto-cierre tras 30 min) y bloqueo de cuenta por seguridad tras 5 intentos fallidos consecutivos.
@@ -19,7 +19,7 @@ El sistema implementa de forma íntegra las interfaces y requisitos técnicos de
 
 ---
 
-## 🛠️ Arquitectura de la Solución
+## Arquitectura de la Solución
 
 - **Capa de Presentación:** React (v19) y Vite con Tailwind CSS para una interfaz fluida, interactiva y móvil adaptativa. Lucide-React para iconos y Framer Motion para transiciones suaves de interfaces.
 - **Capa de Aplicación/Lógica (Backend):** Servidor API RESTful con Express.js en Node.js que procesa autenticaciones, reglas de negocio de stock, logs de auditoría y reportes.
@@ -27,7 +27,7 @@ El sistema implementa de forma íntegra las interfaces y requisitos técnicos de
 
 ---
 
-## ⚙️ Requisitos de Instalación
+## Requisitos de Instalación
 
 Asegúrese de tener instalado:
 - Node.js (versión 18 o superior recomendado)
@@ -49,7 +49,7 @@ NODE_ENV=development
 
 ---
 
-## 🚀 Ejecución del Proyecto
+## Ejecución del Proyecto
 
 El proyecto incluye comandos optimizados en el `package.json`:
 
@@ -72,7 +72,7 @@ npm run start
 
 ---
 
-## 🧪 Pruebas Unitarias Automatizadas
+## Pruebas Unitarias Automatizadas
 
 Para validar las reglas de negocio críticas del sistema (creación de usuarios, alertas automáticas de stock mínimo, validación de código único y control de salidas de existencias), ejecute:
 ```bash
@@ -82,7 +82,7 @@ Este comando ejecuta de forma automatizada las aserciones lógicas sobre la base
 
 ---
 
-## 📝 Credenciales de Prueba
+## Credenciales de Prueba
 
 Para testear el sistema según las vistas de rol diseñadas, ingrese con las siguientes credenciales preconfiguradas:
 
@@ -97,7 +97,7 @@ Para testear el sistema según las vistas de rol diseñadas, ingrese con las sig
 
 ---
 
-## ☁️ Requisitos y Parámetros para el Despliegue
+## Requisitos y Parámetros para el Despliegue
 
 ### Docker (Contenerización)
 El proyecto está optimizado para ejecutarse dentro de contenedores Docker. A continuación, el archivo de Dockerfile recomendado para producción:
