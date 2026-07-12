@@ -1,0 +1,6 @@
+{
+  "name": "Ataraxia Inventario",
+  "description": "Sistema de gestión de inventario y logística para ATARAXIA CONSTRUCTORA S.A.C.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
